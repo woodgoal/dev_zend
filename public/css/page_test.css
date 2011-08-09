@@ -1,0 +1,64 @@
+/**
+ * Author : Julien Gensollen
+ *
+ * page_test.css contient les styles spécifiques à la page de test : tests_accueil.php.
+ *
+ */
+#bloc_test {
+	margin: 0 0 0 45px; 
+}
+ 
+article  #x360, #ps3, #pc {
+	margin: 15px 5px 0 0;
+    width: 30px;
+	border: 0;
+ }
+ 
+article ul {
+	list-style-type: square; 
+	margin: 10px 0 15px 45px;
+}
+
+article ul li span {
+	color: #bdbdbd; 
+} 
+ 
+
+/** LIENS 360**/
+article #a360, #a360:active, #a360:visited  {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 10px;
+	color: #37D635;
+ }
+ 
+ article  #a360:hover {
+	color: #16a001;
+ }
+ 
+ /** LIENS PS3**/
+article #aps3, #aps3:active, #aps3:visited  {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 10px;
+	color: #0267e2;
+ }
+ 
+ article  #aps3:hover {
+	color: #003b76;
+ }
+ 
+ /** LIENS PC**/
+article #apc, #apc:active, #apc:visited  {
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    text-indent: 10px;
+	color: #d98f0c;
+ }
+ 
+ article  #apc:hover {
+	color: #a26a09;
+ }
